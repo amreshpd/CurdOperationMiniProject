@@ -1,0 +1,27 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: InsuranceCompany
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: Amresh1998
+    url: jdbc:h2:mem:testdb
+    username: amresh
+  jpa:
+    show-sql: true
+
+plan:
+  module:
+    messages:
+      save-success: Travel Plan is save with id value
+      save-failure: Travel Plan is not save with id value   
+      find-By-id-failure: Travel Plan is not found
+      update-success: Travel plan update success
+      update-failure: Travel plan is not found for updation
+      delete-success: Travel Plan is deleted
+      delete-failure: Travel pan is not found for deletion
+      status-change-success: Travel Plan status is changed
+      status-change-failure: Travel plan is not found for status changed  
+    
+    
